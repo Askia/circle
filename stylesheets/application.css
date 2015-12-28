@@ -12,7 +12,7 @@
 }
 
 body {
-    color: #3d454c;
+    color: #444;
     font-size: 14px;
     line-height: 1.3;
     font-family: "helvetica neue", helvetica, arial, sans-serif;
@@ -28,21 +28,21 @@ input, select, textarea {
 }
 
 a, a:link, a:visited {
-    color: #2996cc
+    color: #007DC5;
 }
 
 #main {
-    background-color: #fafafa
+    background-color: #fafafa;
 }
 
 #main.nosidebar {
-    background-color: #fff
+    background-color: #fff;
 }
 
 div#content {
     margin-left: -20px;
     padding-left: 25px;
-    padding-top: 15px
+    padding-top: 15px;
 }
 
 #footer {
@@ -50,16 +50,16 @@ div#content {
     padding-top: 18px;
     padding-left: 25px;
     padding-right: 25px;
-    border-top: 1px solid #e0e2e3;
-    color: #ced4d9
+    border-top: 1px solid #EEE;
+    color: #CCC;
 }
 
 #footer a, #footer a:visited {
-    color: #ced4d9
+    color: #CCC;
 }
 
 #footer a:hover {
-    color: #2996cc;
+    color: #007DC5;
     text-decoration: none
 }
 
@@ -100,7 +100,7 @@ h2 {
 #header > h1 {
     font-family: "helvetica neue", helvetica, arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 13px;
     letter-spacing: 1px;
     padding: 17px 10px 30px 55px
@@ -117,10 +117,9 @@ h2 {
 
 #top-menu a {
     margin-right: 15px;
-    font-weight: 400;
-    color: #9da2a6
+    font-weight: 500;
+    color: #DDD;
 }
-
 
 #top-menu a:hover {
     color: #fff;
@@ -215,7 +214,16 @@ h2 {
 
 #login-form table {
     border: 0;
-    padding: 30px
+    padding: 30px;
+    background-color: #EEE;
+}
+
+#login-form label {
+    font-weight: normal;
+}
+
+label {
+    cursor: pointer;
 }
 
 .wiki h1, .wiki h2, .wiki h3 {
@@ -265,11 +273,11 @@ div#content ul.tagit li {
 }
 
 div#content .contacts-tags-edit ul.tagit {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
     border: 1px solid #e0e2e3
 }
 
@@ -278,7 +286,7 @@ div#content .context-menu-selection {
 }
 
 body #context-menu ul {
-    border-radius: 4px
+    border-radius: 2px
 }
 
 body #context-menu li a {
@@ -302,11 +310,11 @@ body #context-menu a.disabled, body #context-menu a.disabled:hover {
 
 div.tooltip:hover span.tip {
     border: 1px solid #ccc;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px
 }
 
 .ui-widget, .ui-widget button, .ui-widget input, .ui-widget select, .ui-widget textarea {
@@ -464,11 +472,11 @@ div.modal {
     border: 1px solid #e0e2e3;
     font-size: 14px;
     background: #fafafa;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
     -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out, opacity .2s ease-in-out;
     -moz-transition: background-color .2s ease-in-out, color .2s ease-in-out, opacity .2s ease-in-out;
     -o-transition: background-color .2s ease-in-out, color .2s ease-in-out, opacity .2s ease-in-out;
@@ -482,13 +490,13 @@ div.modal {
 }
 
 #ajax-modal p.buttons input[type=submit], .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close, input[type=submit] {
-    background: #2996cc;
-    border-color: transparent;
+    background: #007dc5;
+    border-color: #006ba8;
     color: #fff
 }
 
 #ajax-modal p.buttons input[type=submit]:hover, .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close.ui-state-hover, input[type=submit]:hover {
-    background: #3ba8de;
+    background: #008bdb;
     color: #fff
 }
 
@@ -515,11 +523,11 @@ fieldset#filters td.values input, input[type=password], input[type=text] {
     padding: 1px 10px;
     background-color: #fff;
     color: #3d454c;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
     height: 22px;
     border: 1px solid #e0e2e3
 }
@@ -532,8 +540,8 @@ fieldset#filters td.values input:focus, input[type=password]:focus, input[type=t
 .box {
     padding: 15px;
     background: #fafafa;
-    border: 1px solid #e0e2e3;
-    border-radius: 3px
+    border: 1px solid #EEE;
+    border-radius: 2px
 }
 
 select {
@@ -551,11 +559,11 @@ select {
     background-size: 18px 16px;
     text-indent: .01px;
     text-overflow: "";
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
     height: 26px
 }
 
@@ -583,21 +591,21 @@ select[multiple=multiple] {
 }
 
 .jstElements button {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    border-radius: 3px
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px
 }
 
 textarea {
     background-color: #fff;
     color: #3d454c;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
     border: 1px solid #e0e2e3
 }
 
@@ -803,7 +811,7 @@ div.details {
 
 .is_button {
     border: 1px solid transparent;
-    border-radius: 4px
+    border-radius: 2px
 }
 
 .is_button:hover {
@@ -1058,7 +1066,7 @@ BODY {
 
 #top-menu .mobile_search input[name="q"] {
     padding: 4px 10px;
-    border-radius: 6px
+    border-radius: 2px
 }
 
 #top-menu .mobile_search input[type=submit] {
