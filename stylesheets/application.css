@@ -145,7 +145,8 @@ h2 {
 }
 
 #main-menu li > a {
-    color: #9da2a6
+    color: #DDD;
+    transition: color ease-in .2s;
 }
 
 #main-menu li a.selected, #main-menu li a.selected:hover, #main-menu li a:hover {
@@ -1089,8 +1090,22 @@ BODY {
     max-width: 50%
 }
 
-#header H1 {
+#header a {
+    color: #BBB;
+    transition: color ease-in .2s;
+}
+
+#header a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#header h1 {
     display: inline-block
+}
+
+#header h1 a.ancestor {
+    font-size: 100%;
 }
 
 #header #main-menu {
