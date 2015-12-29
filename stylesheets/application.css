@@ -1,5 +1,15 @@
 @import url(../../../stylesheets/application.css);
 
+::-moz-selection {
+    color: #FFF;
+    background: #007DC5;
+}
+
+::selection {
+    color: #FFF;
+    background: #007DC5;
+}
+
 #header > h1 {
     background: url(../images/logo.png) 5px 5px no-repeat
 }
@@ -102,7 +112,7 @@ h2 {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 13px;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
     padding: 17px 10px 30px 55px
 }
 
@@ -146,6 +156,7 @@ h2 {
 
 #main-menu li > a {
     color: #DDD;
+    font-weight: normal;
     transition: color ease-in .2s;
 }
 
@@ -229,7 +240,7 @@ label {
 
 .wiki h1, .wiki h2, .wiki h3 {
     font-weight: 400;
-    color: #000
+    color: #444 !important;
 }
 
 .wiki h1 {
@@ -246,7 +257,7 @@ label {
 }
 
 .wiki.wiki-page {
-    color: #6A6E71
+    color: #444;
 }
 
 span.tag-label-color {
@@ -679,7 +690,7 @@ table.list input[type=checkbox] {
 }
 
 table.list tbody tr:hover {
-    background-color: #dfeff7
+    background-color: #EEE;
 }
 
 table.list tr.issue a {
@@ -785,8 +796,10 @@ tr.even.priority-lowest td, tr.odd.priority-lowest td {
 }
 
 div.contact, div.deal, div.issue, div.person {
-    border: 0 !important;
-    padding: 10px !important
+    /*border: 0 !important;*/
+    border-radius: 2px !important;
+    padding: 10px !important;
+    background: #EEE !important;
 }
 
 table.progress td {
