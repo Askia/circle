@@ -292,30 +292,33 @@ div#content .contacts-tags-edit ul.tagit {
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
     border-radius: 2px;
-    border: 1px solid #e0e2e3
+    border: 1px solid #e0e2e3;
 }
 
 div#content .context-menu-selection {
-    background-color: #2996cc !important
+    background-color: #007DC5 !important;
 }
 
 body #context-menu ul {
-    border-radius: 2px
+    border-radius: 2px;
+    padding: 0 !important;
 }
 
 body #context-menu li a {
-    color: #333
+    color: #222;
+    transition: color ease-in .2s;
 }
 
 body #context-menu li:hover {
-    background: #f2f4f5;
-    color: #3d454c;
-    border: 1px solid #f2f4f5;
-    border-radius: 0
+    background: #007DC5;
+    color: #FFF;
+    border: 1px solid #007DC5;
+    border-radius: 0;
+    transition: background ease-in .2s;
 }
 
 body #context-menu li:hover > a:not(.disabled) {
-    color: #333
+    color: #FFF;
 }
 
 body #context-menu a.disabled, body #context-menu a.disabled:hover {
@@ -547,7 +550,7 @@ fieldset#filters td.values input, input[type=password], input[type=text] {
 }
 
 fieldset#filters td.values input:focus, input[type=password]:focus, input[type=text]:focus, select:focus, textarea:focus {
-    border-color: #2996cc;
+    border-color: #007DC5;
     outline: 0
 }
 
@@ -1102,7 +1105,7 @@ BODY {
 }
 
 #top-menu .mobile_search input[type=submit] {
-    background: url(../images/svg/search.svg) #2996cc;
+    background: url(../images/svg/search.svg) #007DC5;
     background-size: cover
 }
 
