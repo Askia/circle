@@ -117,7 +117,7 @@ h2 {
 }
 
 #quick-search {
-    margin-top: 10px
+    margin-top: 5px;
 }
 
 #top-menu {
@@ -554,6 +554,17 @@ fieldset#filters td.values input:focus, input[type=password]:focus, input[type=t
 #login-form input#username, #login-form input#password {
     font-size: 14px !important;
     padding: 6px 10px !important;
+}
+
+input#q.small {
+    font-size: 14px !important;
+    padding: 5px !important;
+}
+
+select#project_quick_jump_box {
+    padding: 5px 30px 5px 10px !important;
+    height: 34px !important;
+    font-size: 14px !important;
 }
 
 .box {
