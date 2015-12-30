@@ -108,11 +108,10 @@ h2 {
 }
 
 #header > h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 13px;
-    /*letter-spacing: 1px;*/
+    font-weight: 700;
+    font-size: 14px;
     padding: 17px 10px 30px 55px
 }
 
@@ -335,7 +334,7 @@ div.tooltip:hover span.tip {
 }
 
 .ui-widget, .ui-widget button, .ui-widget input, .ui-widget select, .ui-widget textarea {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 1em
 }
 
