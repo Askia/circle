@@ -827,6 +827,14 @@ table.progress td {
     padding: 0
 }
 
+table.progress td.closed {
+    background: rgba(61,69,74,.6) none repeat scroll 0% !important;
+}
+
+table.progress td.done {
+    background: rgba(61,69,74,.6) none repeat scroll 0% !important;
+}
+
 div.details {
     padding: 20px !important
 }
