@@ -10,6 +10,10 @@
     background: #007DC5;
 }
 
+input:focus, a:focus {
+    outline: 0;
+}
+
 #header > h1 {
     background: url(../images/logo.png) 5px 5px no-repeat
 }
