@@ -549,6 +549,11 @@ fieldset#filters td.values input:focus, input[type=password]:focus, input[type=t
     outline: 0
 }
 
+#login-form input#username, #login-form input#password {
+    font-size: 14px !important;
+    padding: 6px 10px !important;
+}
+
 .box {
     padding: 15px;
     background: #fafafa;
