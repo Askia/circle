@@ -904,9 +904,14 @@ div.details {
     border-color: #007dc5 !important;
 }
 
-.pagination ul.pages li:first-child, .pagination ul.pages li:last-child {
+.pagination ul.pages li:first-child {
     border-top-left-radius: 2px !important;
     border-bottom-left-radius: 2px !important;
+}
+
+.pagination ul.pages li:last-child {
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;    
 }
 
 BODY, HTML {
