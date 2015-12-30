@@ -284,6 +284,10 @@ span.tag-label-color:hover {
     position: relative
 }
 
+#content h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
 div#content ul.tagit li {
     margin: 2px 5px 1px 0
 }
