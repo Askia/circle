@@ -692,12 +692,26 @@ input#content_comments, input#issue_subject {
     border-bottom: 1px solid #fafafa
 }
 
+#query_form_content {
+    font-size: 100% !important;
+}
+
+select#operators_status_id, select#add_filter_select {
+    padding: 5px 30px 5px 10px !important;
+    font-size: 14px !important;
+    height: 34px !important;
+}
+
 table.list {
     border: none !important;
 }
 
 .hascontextmenu {
     border-top: 1px solid #DDD !important;
+}
+
+table.list thead a {
+    color: #444;
 }
 
 table.list tbody td, table.list tbody tr:hover td {
@@ -716,6 +730,10 @@ table.list td, table.list th {
 
 table.list input[type=checkbox] {
     margin-top: 6px
+}
+
+table.list tbody tr {
+    transition: background-color ease-in .2s;
 }
 
 table.list tbody tr:hover {
@@ -867,6 +885,16 @@ div.details {
 
 .is_button:hover {
     border: 1px solid #ccc
+}
+
+.pagination ul.pages li.current {
+    background-color: #007dc5 !important;
+    border-color: #007dc5 !important;
+}
+
+.pagination ul.pages li:first-child, .pagination ul.pages li:last-child {
+    border-top-left-radius: 2px !important;
+    border-bottom-left-radius: 2px !important;
 }
 
 BODY, HTML {
