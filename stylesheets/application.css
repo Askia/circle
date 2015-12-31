@@ -82,10 +82,6 @@ div#content {
 }
 
 input[type=text].live_search_field, input[type=text].questions-search.autocomplete {
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
     border-radius: 40px;
     height: 28px;
     outline: 0
@@ -308,15 +304,19 @@ span.tag-label-color:hover {
     font-family: 'Open Sans', sans-serif !important;
 }
 
+h4 {
+    border-bottom: 1px solid #DDD;
+}
+
+img.gravatar {
+    border: 1px solid #DDD;
+}
+
 div#content ul.tagit li {
     margin: 2px 5px 1px 0
 }
 
 div#content .contacts-tags-edit ul.tagit {
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
     border-radius: 2px;
     border: 1px solid #e0e2e3;
 }
@@ -352,11 +352,7 @@ body #context-menu a.disabled, body #context-menu a.disabled:hover {
 }
 
 div.tooltip:hover span.tip {
-    border: 1px solid #ccc;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
+    border: 1px solid #DDD;
     border-radius: 2px
 }
 
@@ -382,15 +378,21 @@ div.modal {
 .ui-dialog.modal .ui-widget-header {
     border: 0;
     background: #fafafa;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #3d454c;
     font-size: 24px;
     font-weight: 400;
-    text-align: center;
-    border-bottom: solid 1px #ced4d9;
+    border-bottom: solid 1px #DDD;
     margin: -10px -10px 5px;
-    border-radius: 0
+    border-radius: 0;
+}
+
+input#user_search {
+    width: 90%;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #444;
 }
 
 .ui-datepicker .ui-widget-header {
@@ -528,18 +530,18 @@ div.modal {
 #ajax-modal p.buttons input[type=submit], .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close, input[type=submit] {
     background: #007dc5;
     border-color: #006ba8;
-    color: #fff
+    color: #fff;
 }
 
 #ajax-modal p.buttons input[type=submit]:hover, .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close.ui-state-hover, input[type=submit]:hover {
     background: #008bdb;
-    color: #fff
+    color: #fff;
 }
 
 #ajax-modal p.buttons input:hover, .details input[type=submit]:hover, .ui-datepicker .ui-datepicker-buttonpane button.ui-state-hover, input[type=submit].button-small:hover, input[type=submit].small:hover, input[type=submit][name=continue]:hover, input[type=button]:hover {
-    background-color: #3D454C;
-    border-color: #3D454C;
-    color: #FFF;
+    background-color: #DDD;
+    border-color: #CCC;
+    color: #444;
     transition-duration: .05s
 }
 
@@ -551,12 +553,13 @@ div.modal {
 }
 
 fieldset#filters td.values input, input[type=password], input[type=text] {
-    padding: 1px 10px;
+    padding: 5px 10px;
     background-color: #fff;
-    color: #3d454c;
+    color: #444;
     border-radius: 2px;
     height: 22px;
-    border: 1px solid #e0e2e3
+    border: 1px solid #DDD;
+    font-size: 14px;
 }
 
 fieldset#filters td.values input:focus, input[type=password]:focus, input[type=text]:focus, select:focus, textarea:focus {
@@ -614,10 +617,6 @@ select {
     background-size: 18px 16px;
     text-indent: .01px;
     text-overflow: "";
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
     border-radius: 2px;
     height: 26px
 }
@@ -646,20 +645,12 @@ select[multiple=multiple] {
 }
 
 .jstElements button {
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
     border-radius: 2px
 }
 
 textarea {
     background-color: #fff;
     color: #3d454c;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
     border-radius: 2px;
     border: 1px solid #e0e2e3
 }
@@ -683,30 +674,33 @@ input#content_comments, input#issue_subject {
 }
 
 #content .tabs ul {
-    border-bottom: 1px solid #ECECEC
+    border-bottom: 1px solid #DDD;
 }
 
 #content .tabs ul li a {
-    border: 1px solid #ECECEC;
-    background-color: #ECECEC;
-    border-radius: 0
+    border: 1px solid #DDD;
+    background-color: #EEE;
+    border-radius: 0;
+    transition: color ease-in .2s, background-color ease-in .2s, border ease-in.2s;
 }
 
 #content .tabs ul li a.selected {
-    border: 1px solid #ECECEC;
-    border-bottom: 1px solid #FFF
+    border: 1px solid #DDD;
+    border-bottom: 1px solid #FFF;
 }
 
 #content .tabs ul li a.selected:hover {
-    border-top: 1px solid #ECECEC;
-    border-left: 1px solid #ECECEC;
-    border-right: 1px solid #ECECEC
+    border-top: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    color: #444;
 }
 
 #content .tabs ul li a:hover {
-    border-top: 1px solid #ffd;
-    border-left: 1px solid #ffd;
-    border-right: 1px solid #ffd
+    border-top: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    color: #666;
 }
 
 #content .box .tabs ul li a.selected {
@@ -737,21 +731,24 @@ table.list thead a {
 }
 
 table.list tbody td, table.list tbody tr:hover td {
-    border: 1px solid #d7d7d7
+    border-top: 1px solid #DDD;
 }
 
 table.list thead th {
-    border-width: 1px;
+    border-width: 0;
     border-style: solid;
-    border-color: #d7d7d7
+    border-color: #DDD;
+    background-color: #EEE;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 table.list td, table.list th {
-    padding: 5px
+    padding: 5px;
 }
 
 table.list input[type=checkbox] {
-    margin-top: 6px
+    margin-top: 6px;
 }
 
 table.list tbody tr {
@@ -865,10 +862,9 @@ tr.even.priority-lowest td, tr.odd.priority-lowest td {
 }
 
 div.contact, div.deal, div.issue, div.person {
-    /*border: 0 !important;*/
     border-radius: 2px !important;
     padding: 10px !important;
-    background: #EEE !important;
+    background: #FAFAFA !important;
 }
 
 table.progress td {
