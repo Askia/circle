@@ -528,7 +528,7 @@ input#user_search {
 }
 
 #ajax-modal p.buttons input[type=submit], .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close, input[type=submit] {
-    background: #007dc5;
+    background: #0796E8;
     border-color: #006ba8;
     color: #fff;
 }
