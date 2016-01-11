@@ -231,7 +231,7 @@ h2 {
 }
 
 #errorExplanation, div.flash.error {
-    background: rgba(46,204,113,.2) !important;
+    background: rgba(231, 76, 60, .2) !important;
     color: #e74c3c !important;
     border: 1px solid #e74c3c !important;
 }
