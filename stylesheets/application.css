@@ -595,6 +595,10 @@ select#project_quick_jump_box {
     font-size: 14px !important;
 }
 
+#projects-index ul.projects div.root a.project {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .box {
     padding: 15px;
     background: #fafafa;
