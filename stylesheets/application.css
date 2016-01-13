@@ -707,9 +707,9 @@ input#content_comments, input#issue_subject {
 }
 
 #content .tabs ul li a:hover {
-    border-top      : 1px solid #DDD;
-    border-left     : 1px solid #DDD;
-    border-right    : 1px solid #DDD;
+    border-top      : 1px solid rgba(53, 53, 53,.2);
+    border-left     : 1px solid rgba(53, 53, 53,.2);
+    border-right    : 1px solid rgba(53, 53, 53,.2);
     color           : #444;
     background-color: rgba(53, 53, 53,.2) !important;
 }
