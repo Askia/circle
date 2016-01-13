@@ -775,7 +775,7 @@ table.list tr.issue a {
 }
 
 table.list tbody tr.odd.priority-highest:hover, tr.odd.priority-highest {
-    color       : #900;
+    color       : #C0392B;
     font-weight : 700;
 }
 
@@ -784,7 +784,7 @@ tr.odd.priority-highest {
 }
 
 table.list tbody tr.even.priority-highest:hover, tr.even.priority-highest {
-    color       : #900;
+    color       : #C0392B;
     font-weight : 700;
 }
 
@@ -793,7 +793,7 @@ tr.even.priority-highest {
 }
 
 tr.priority-5:hover a, tr.priority-highest a {
-    color: #900;
+    color: #C0392B;
 }
 
 tr.even.priority-highest td, tr.odd.priority-highest td {
@@ -801,7 +801,7 @@ tr.even.priority-highest td, tr.odd.priority-highest td {
 }
 
 table.list tbody tr.odd.priority-high4:hover, tr.odd.priority-high2 {
-    color: #900;
+    color: #C0392B;
 }
 
 tr.odd.priority-high2 {
@@ -809,7 +809,7 @@ tr.odd.priority-high2 {
 }
 
 table.list tbody tr.even.priority-high4:hover, tr.even.priority-high2 {
-    color: #900;
+    color: #C0392B;
 }
 
 tr.even.priority-high2 {
@@ -817,7 +817,7 @@ tr.even.priority-high2 {
 }
 
 tr.priority-high2 a {
-    color: #900;
+    color: #C0392B;
 }
 
 tr.even.priority-high4 td, tr.odd.priority-high2 td {
@@ -825,7 +825,7 @@ tr.even.priority-high4 td, tr.odd.priority-high2 td {
 }
 
 table.list tbody tr.odd.priority-high3:hover, tr.odd.priority-high3 {
-    color: #900;
+    color: #C0392B;
 }
 
 tr.odd.priority-high3 {
@@ -833,7 +833,7 @@ tr.odd.priority-high3 {
 }
 
 table.list tbody tr.even.priority-high3:hover, tr.even.priority-high3 {
-    color: #900;
+    color: #C0392B;
 }
 
 tr.even.priority-high3 {
@@ -841,7 +841,7 @@ tr.even.priority-high3 {
 }
 
 tr.priority-high3 a {
-    color: #900;
+    color: #C0392B;
 }
 
 tr.even.priority-high3 td, tr.odd.priority-high3 td {
@@ -849,7 +849,7 @@ tr.even.priority-high3 td, tr.odd.priority-high3 td {
 }
 
 table.list tbody tr.odd.priority-lowest:hover, tr.odd.priority-lowest {
-    color: #559;
+    color: #007DC5;
 }
 
 tr.odd.priority-lowest {
@@ -857,7 +857,7 @@ tr.odd.priority-lowest {
 }
 
 table.list tbody tr.even.priority-lowest:hover, tr.even.priority-lowest {
-    color: #559;
+    color: #007DC5;
 }
 
 tr.even.priority-lowest {
@@ -865,7 +865,7 @@ tr.even.priority-lowest {
 }
 
 tr.priority-lowest a {
-    color: #559;
+    color: #007DC5;
 }
 
 tr.even.priority-lowest td, tr.odd.priority-lowest td {
