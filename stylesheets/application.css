@@ -707,10 +707,11 @@ input#content_comments, input#issue_subject {
 }
 
 #content .tabs ul li a:hover {
-    border-top  : 1px solid #DDD;
-    border-left : 1px solid #DDD;
-    border-right: 1px solid #DDD;
-    color       : #666;
+    border-top      : 1px solid #DDD;
+    border-left     : 1px solid #DDD;
+    border-right    : 1px solid #DDD;
+    color           : #444;
+    background-color: rgba(53, 53, 53,.2) !important;
 }
 
 #content .box .tabs ul li a.selected {
