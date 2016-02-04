@@ -284,6 +284,10 @@ label {
     color: #444;
 }
 
+#wiki_form textarea {
+    font-family: Consolas, Monaco, Courier, monospace;
+}
+
 span.tag-label-color {
     border          : 0 !important;
     padding         : 4px 8px !important;
