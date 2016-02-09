@@ -704,10 +704,11 @@ input#content_comments, input#issue_subject {
 }
 
 #content .tabs ul li a.selected:hover {
-    border-top  : 1px solid #DDD;
-    border-left : 1px solid #DDD;
-    border-right: 1px solid #DDD;
-    color       : #444;
+    border-top      : 1px solid #DDD;
+    border-left     : 1px solid #DDD;
+    border-right    : 1px solid #DDD;
+    color           : #444;
+    background-color: #FFF !important;
 }
 
 #content .tabs ul li a:hover {
