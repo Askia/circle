@@ -284,6 +284,13 @@ label {
     color: #444;
 }
 
+code {
+    background-color: #F5F5F5;
+    padding         : 4px 5px;
+    border-radius   : 2px;
+    color           : #C0392B;
+}
+
 #wiki_form textarea {
     font-family: Consolas, Monaco, Courier, monospace;
 }
