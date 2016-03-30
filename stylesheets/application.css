@@ -49,6 +49,11 @@ a, a:link, a:visited {
     color: #007DC5;
 }
 
+div.wiki .external {
+    padding-left        : 0 !important;
+    background-image    : none !important;
+}
+
 #main {
     background-color: #FAFAFA;
 }
