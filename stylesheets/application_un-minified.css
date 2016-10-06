@@ -114,7 +114,7 @@ div#content {
 }
 
 #footer a:hover {
-    color           : #007DC5;
+    color           : #3a83ba;
     text-decoration : none
 }
 
@@ -321,7 +321,7 @@ label {
 }
 
 code {
-    background-color: #F0F0F0;
+    background-color: #EFEFEF;
     padding         : 4px 5px;
     border-radius   : 2px;
     color           : #DF4335;
@@ -359,6 +359,10 @@ h4 {
     border-bottom: 1px solid #DDD;
 }
 
+body hr {
+    background: #EEE;
+}
+
 img.gravatar {
     border: 1px solid #DDD;
 }
@@ -373,7 +377,7 @@ div#content .contacts-tags-edit ul.tagit {
 }
 
 div#content .context-menu-selection {
-    background-color: #007DC5 !important;
+    background-color: #3a83ba !important;
 }
 
 body #context-menu ul {
@@ -387,9 +391,9 @@ body #context-menu li a {
 }
 
 body #context-menu li:hover {
-    background      : #007DC5;
+    background      : #3a83ba;
     color           : #FFF;
-    border          : 1px solid #007DC5;
+    border          : 1px solid #3a83ba;
     border-radius   : 0;
     transition      : background ease-in .2s;
 }
@@ -616,7 +620,7 @@ fieldset#filters td.values input, input[type=password], input[type=text] {
 }
 
 fieldset#filters td.values input:focus, input[type=password]:focus, input[type=text]:focus, select:focus, textarea:focus {
-    border-color: #007DC5;
+    border-color: #3a83ba;
     outline     : 0;
 }
 
@@ -897,7 +901,7 @@ tr.even.priority-high3 td, tr.odd.priority-high3 td {
 }
 
 table.list tbody tr.odd.priority-lowest:hover, tr.odd.priority-lowest {
-    color: #007DC5;
+    color: #3a83ba;
 }
 
 tr.odd.priority-lowest {
@@ -905,7 +909,7 @@ tr.odd.priority-lowest {
 }
 
 table.list tbody tr.even.priority-lowest:hover, tr.even.priority-lowest {
-    color: #007DC5;
+    color: #3a83ba;
 }
 
 tr.even.priority-lowest {
@@ -913,7 +917,7 @@ tr.even.priority-lowest {
 }
 
 tr.priority-lowest a {
-    color: #007DC5;
+    color: #3a83ba;
 }
 
 tr.even.priority-lowest td, tr.odd.priority-lowest td {
@@ -965,8 +969,8 @@ div.details {
 }
 
 .pagination ul.pages li.current {
-    background-color: #007DC5 !important;
-    border-color    : #007DC5 !important;
+    background-color: #3a83ba !important;
+    border-color    : #3a83ba !important;
 }
 
 .pagination ul.pages li:first-child {
@@ -1236,7 +1240,7 @@ body {
 }
 
 #top-menu .mobile_search input[type=submit] {
-    background      : url(../images/svg/search.svg) #007DC5;
+    background      : url(../images/svg/search.svg) #3a83ba;
     background-size : cover;
 }
 
