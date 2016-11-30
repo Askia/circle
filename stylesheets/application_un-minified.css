@@ -22,6 +22,14 @@ input[type=text]:disabled {
     background: url(../images/logo.png) 5px 5px no-repeat
 }
 
+/* Start Askia Custom */
+#header h1 .breadcrumbs {
+    display:block;
+    font-size: 1em;
+    font-weight: normal;
+}
+/* End Askia Custom */
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
     #header > h1 {
         background-image: url(../images/logo2x.png);
