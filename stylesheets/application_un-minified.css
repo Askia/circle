@@ -91,7 +91,7 @@ div#content {
 }
 
 #footer a:hover {
-    color           : #3a83ba;
+    color           : #283B49;
     text-decoration : none
 }
 
@@ -562,14 +562,14 @@ input#user_search {
 }
 
 #ajax-modal p.buttons input[type=submit], .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close, input[type=submit] {
-    background  : #0796E8;
-    border-color: #006BA8;
-    color       : #FFF;
-    transition  : background .2s ease-in-out, color .2s ease-in-out;
+    background  : #283B49;
+    border-color: #192730;
+    color       : #EEE;
+    transition  : background .15s ease-in, color .15s ease-in;
 }
 
 #ajax-modal p.buttons input[type=submit]:hover, .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close.ui-state-hover, input[type=submit]:hover {
-    background: #008BDB;
+    background: #486579;
     color: #FFF;
 }
 
@@ -597,7 +597,7 @@ fieldset#filters td.values input, input[type=password], input[type=text] {
 }
 
 fieldset#filters td.values input:focus, input[type=password]:focus, input[type=text]:focus, select:focus, textarea:focus {
-    border-color: #3a83ba;
+    border-color: #DF4335;
     outline     : 0;
 }
 
@@ -1221,6 +1221,12 @@ body {
     background-size : cover;
 }
 
+#top-menu span.badge {
+    background-color: #DF4335;
+    border-radius   : 2px;
+    padding         : 4px 6px;
+}
+
 #header {
     position: relative;
 }
@@ -1274,6 +1280,30 @@ body {
 
 #header #main-menu ul li {
     float: left;
+}
+
+#header #main-menu li a.new-object {
+    background-color: #EEE;
+    color           : #283B49;
+}
+
+#main-menu ul.menu-children.visible,
+#main-menu ul.menu-children.visible li a,
+#main-menu ul.menu-children,
+#main-menu ul.menu-children li a {
+    background-color: #EEE;
+    color           : #283B49;
+}
+
+#main-menu .menu-children li a:hover {
+    color           : #FFF;
+    background-color: #283B49;
+}
+
+#header #main-menu .menu-children {
+    border-right: 1px solid #AAA;
+    border-bottom: 1px solid #AAA;
+    border-left: 1px solid #AAA;
 }
 
 #header .overwidth {
@@ -1378,7 +1408,7 @@ body {
     height          : 40px;
     z-index         : 11;
     transition      : .1s;
-    background      : url(../images/svg/sidebar_arrow_close.svg) center no-repeat #3d454c;
+    background      : url(../images/svg/sidebar_arrow_close.svg) center no-repeat #283B49;
     background-size : 15px 15px;
     cursor          : pointer;
 }
@@ -1406,6 +1436,10 @@ body {
     #content {
         overflow-x: scroll;
     }
+}
+
+span.required {
+    color: #DF4335 !important;
 }
 
 /* SPECIFIC OVERRIDES TO RESPONSIVE.CSS */
