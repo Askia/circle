@@ -297,11 +297,28 @@ label {
     color: #283B49;
 }
 
+.wiki {
+    padding: 0px 20px 3px;
+}
+
+.journal {
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    margin: 10px;
+    font-size: 0.95em;
+}
+
+.journal > div > h4 {
+    padding: 5px;
+    background: #FAFAFA;
+}
+
 code {
-    background-color: #EFEFEF;
-    padding         : 4px 5px;
+    background-color: #FAFAFA;
+    padding         : 0px 2px;
     border-radius   : 2px;
     color           : #DF4335;
+    border: 1px solid #DEDEDE;
 }
 
 #wiki_form textarea {
